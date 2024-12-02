@@ -1,0 +1,45 @@
+name: lazada
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  carousel_slider: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.2.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/apple_icon.png
+    - assets/images/facebook_icon.png
+    - assets/images/google_icon.png
+    - assets/images/lazada_logo.png
+    - assets/images/lazada_logo2.png
+    - assets/images/banner1.png
+    - assets/images/banner2.webp
+    - assets/images/banner3.webp
+    - assets/images/sandal.png
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/static/Inter_18pt-Medium.ttf
+        - asset: assets/fonts/static/Inter_24pt-Medium.ttf
+
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Medium.ttf
